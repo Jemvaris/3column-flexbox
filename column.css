@@ -13,7 +13,7 @@ main {
   margin: auto;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  text-align: center;
   height: 100vh;
   flex-direction: column;
 }
@@ -23,70 +23,63 @@ main {
   width: 50%;
   color: hsla(0, 0%, 100%, 0.75);
 }
-.bottom-content .bottom1 {
-  background-color: hsl(31, 77%, 52%);
-  padding: 2em;
-  width: 100%;
-}
+
 .h2 {
   font-optical-sizing: auto;
   font-family: "Big Shoulders Display script=latin rev=1";
   font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: initial;
-  font-weight: bolder;
+  
 }
 
-.bottom1 .p {
+.p {
   font-optical-sizing: auto;
   font-family: "Lexend Deca script=latin rev=1";
   font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: initial;
+  
 }
-
+.bottom-content .bottom1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 4em;
+  
+}
 .bottom-content .bottom2 {
   background-color: hsl(184, 100%, 22%);
-  padding: 2em;
-  width: 100%;
+  padding: 4em;
+  
 }
 
-.bottom2 .p {
-  font-optical-sizing: auto;
-  font-family: "Lexend Deca script=latin rev=1";
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: initial;
-}
 
 .bottom-content .bottom3 {
   background-color: hsl(179, 100%, 13%);
-  padding: 2em;
-  width: 100%;
+  padding: 4em;
+
+}
+button {
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 16;
+  border: solid 2px color: rgb(145, 145, 145);;
+  background: color: rgb(145, 145, 145);;
+  transition: all ease 0.3s;
+}
+.bottom1 button {
+  color:hsl(31, 77%, 52%);
 }
 
-.bottom3 .p {
-  font-optical-sizing: auto;
-  font-family: "Lexend Deca script=latin rev=1";
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: initial;
+.bottom2 button {
+  color:hsl(184, 100%, 22%);
 }
 
-.menu1 {
-  font-size: 15px;
-  font-family: "Lexend Deca script=latin rev=1";
-  background-color: hsla(0, 0%, 100%, 0.75);
-  color: hsl(0, 0%, 95%);
-  padding: 8px 10px;
-  margin-right: 10px;
-  border-radius: 10px;
-  text-decoration: none;
-  border-color: white;
-
-  transition: background 0.5s linear 0s;
+.bottom3 button {
+  color:hsl(179, 100%, 13%);
 }
+
+button:hover {
+  background: transparent;
+  color: color: rgb(145, 145, 145);;
+}
+
+
+
+
