@@ -1,68 +1,69 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 
-body{
+  * {
+    margin: 0;
+    padding: 1%;
+    box-sizing: border-box;
+  }
+  box-sizing: border-box;
+
+  body {
     background-color: rgb(14, 0, 9);
-    display: flex;
-    text-align: center;
-    color: white;
-    place-items: center;
-    min-height: 100vh;
-}
-h1{
-    font-family: 'Big Shoulders Display', cursive;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: rgb(145, 145, 145);
-}
-p{
-    font-size: 15px;
-    margin: 25px 0 60px 0;
-    color: white;
-    font-weight: 400;
-    line-height: 1.8;
-}
-.container{
-    display: flex;
-    width: 840px;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 50%;
-    padding: 100px 100px;
-}
-main{
-   
-    display: grid;
-    grid-template-areas: 
-    'sedans suvs luxury';
-    gap: 0;
-    width: 50%;
+    height: fit-content;
+  }
+  
+  main {
+    width: 65%;
     margin: auto;
-    border-radius: 50px;
-}
-main.div{
-    padding: 2em;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .bottom-content {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+  .bottom1, .bottom2, .bottom3 {
+    float: center;
+    width: 40%;
+    color: white;
+    padding: 5em;
+    height: 85%;
     text-align: center;
     
-
-}
-
-.sedans{
-    background-color: rgba(243, 143, 12, 0.952);
-    grid-area: sedans;
-}
-.suvs{
-    background-color: rgba(35, 92, 167, 0.678);
-    grid-area: suvs;
-}
-.luxury{
-    background-color: rgb(7, 82, 59);
-    grid-area: luxury;
-}
-button {
+ }
+  .h2 {
+    font-optical-sizing: auto;
+    font-family: "Big Shoulders Display script=latin rev=1";
+    font-weight: 700;
+    font-weight: bolder;
+  }
+  
+  .p {
+    font-optical-sizing: auto;
+    font-family: "Lexend Deca script=latin rev=1";
+    font-weight: 300;
+  
+  }
+  .bottom-content .bottom1 {
+    background-color: hsl(31, 77%, 52%);
+    
+  }
+  
+  .bottom-content .bottom2 {
+    background-color: hsl(184, 100%, 22%);
+    
+  }
+  
+  .bottom-content .bottom3 {
+    background-color: hsl(179, 100%, 13%);
+   
+  }
+  
+  button {
     padding: 12px 30px;
     border-radius: 50px;
     font-family: inherit;
@@ -71,15 +72,15 @@ button {
     background: color: rgb(145, 145, 145);;
     transition: all ease 0.3s;
   }
-  .sedans button {
+  .bottom1 button {
     color:hsl(31, 77%, 52%);
   }
   
-  .suvs button {
+  .bottom2 button {
     color:hsl(184, 100%, 22%);
   }
   
-  .kuxury button {
+  .bottom3 button {
     color:hsl(179, 100%, 13%);
   }
   
@@ -88,6 +89,4 @@ button {
     color: color: rgb(145, 145, 145);;
   }
   
-  .circle {
-    margin-bottom: 30px;
-  }
+  
